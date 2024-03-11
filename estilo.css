@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(232, 243, 243);
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+img {
+    max-width: 350px;
+    max-height: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#imagen{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#receta {
+    display: flex;
+    justify-content: space-evenly;
+}
+#receta p {
+    color: red;
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: ;
+}
+#pasos {
+    text-align: justify;
+    display: block;
+    margin: 30px 30px;
+}
+#pasos h4 {
+    color: red;
+    font-size: 150%;
+}
+h3 {
+    text-align: center;
+}
