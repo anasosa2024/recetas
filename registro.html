@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="est_reg.css">
+    <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/DarkGlass_Reworked/128x128/apps/cookie.png">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="logo.png" alt="la cocina de Ana" width="150px" height="150px">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="acerca_de.html">Acerca de</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="">Regístrese</a>
+            <a href="sucursales.html">Sucursales</a>
+        </nav>
+        <h1 id="titulo">La Cocina de Ana</h1>
+    </header>
+    <h2>Formulario de registro</h2>
+    <form action="show-data.html" target="_blank">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="firstname">Nombre: </label>
+            <input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aqui...">
+            <label for="lastname">Apellido:</label>
+            <input size="30" type="text" name="lastname" placeholder="Ingrese su apellido aqui...">
+            <br><br>
+            <label for="street">Direccion:</label>
+            <input type="text" name="address" placeholder="Ingrese su dirección aqui...">
+            <label for="city">Ciudad: </label>
+            <input type="text" name="city" value="C.A.B.A.">
+            <br><br>
+            <label for="zipcode">Código Postal:</label>
+            <input type="text" name="zipcode" placeholder="Ingrese su codigo postal aqui...">
+            <label for="telefono">Telefono: </label>
+            <input type="tel" name="telefono" placeholder="Ingrese su telefono aqui ....">
+            <br><br>
+            <label for="BirthDate">Fecha Nac.(mm/dd/yyyy): </label>
+            <input type="date" name="birthdate">
+            <p>Género (Radio)
+                <input type="radio" name="gender" value="hombre" checked>Hombre
+                <input type="radio" name="gender" value="Mujer">Mujer
+                <input type="radio" name="gender" value="Otro"> Otro
+            </p>
+        </fieldset>
+        <p> Conocimientos previos: (checkbox)
+            <input type="checkbox" name="conocimientos" value="HTML"> HTML
+            <input type="checkbox" name="conocimientos" value="CSS"> CSS
+            <input type="checkbox" name="conocimientos" value="BOOTSTRAP"> Bootstrap
+            <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
+            <input type="checkbox" name="conocimientos" value="BaseDeDatos"> Base de Datos
+            <input type="checkbox" name="conocimientos" value="Python"> Python
+            <input type="checkbox" name="conocimientos" value="Django"> Django
+        </p>
+        <label for="estudios">Estudios: (Select)</label>
+        <select id="estudios" name="estudios">
+            <option value="primaria">Primaria</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="terciario">Terciario</option>
+            <option value="universitario">Universitario</option>
+        </select>
+        <br>
+        <label for="comentarios">Comentarios:</label> <textarea name="comentarios" rows="5" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <button type="reset">Reset</button>
+    </form>
+    <!--  Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html"  -->
+    <div id="rc">
+        <a href="#logo">Subir</a>
+    </div>
+
+    <footer>
+        <div id="redes">
+            <a href="https://twitter.com/?lang=es" target="_blank"><img
+                    src="https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/1227/X-512.png" alt="X"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img
+                    src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_facebook-512.png"
+                    alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img
+                    src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-512.png"
+                    alt="Instagram"></a>
+            <a href="https://ar.linkedin.com/" target="_blank"><img
+                    src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-1024.png"
+                    alt="Linkedin"></a>
+        </div>
+        <p>Derechos Reservados @2024</p>
+    </footer>
+</body>
+
+</html>
